@@ -24195,36 +24195,36 @@ class rM {
 }
 const oM = [{
         id: 0,
-        name: "Join",
+        name: "CRUD",
         description: "Group managment tool to optimize workflows",
         image: "images/projects/join.jpg",
         tags: ["javascript", "backend", "html", "css"],
         liveview: "https://join.david-hckh.com/",
-        github: "https://github.com/davidhckh/join",
+        github: "https://github.com/mrx-sandy/",
         alt: "Group management tool to optimize workflows portfolio project"
     }, {
         id: 1,
-        name: "Pokedex",
+        name: "Royal Marriage Bureau",
         description: "A collection and description of all 898 Pokémon",
-        image: "images/projects/pokedex.jpg",
+        image: "https://royalmarriagebureau.com/website/images/logo-b.png",
         tags: ["javascript", "api", "html", "css"],
-        liveview: "https://js-pokedex-virid.vercel.app/",
-        github: "https://github.com/davidhckh/pokedex",
-        alt: "pokedex design detailed design portfolio project"
+        liveview: "https://royalmarriagebureau.com/",
+        github: "https://github.com/mrx-sandy/",
+        alt: "Royal Marriage Matrimony project"
     }, {
         id: 2,
-        name: "Sharkie",
-        description: "JavaScript based jump-and-run game",
-        image: "images/projects/sharkie.jpg",
+        name: "VS-Mart (E-Commerce)",
+        description: "React.JS based E-Commerce Website project",
+        image: "https://vsmart.ajspire.com/uploads/slider/1667996845.jpg",
         tags: ["javascript", "html", "css"],
-        liveview: "https://sharkie-game.vercel.app/",
-        github: "https://github.com/davidhckh/sharkie-game",
-        alt: "javascript based jump-and-run game portfolio project"
+        liveview: "https://vsmart.ajspire.com/",
+        github: "https://github.com/mrx-sandy/",
+        alt: "React.JS based E-Commerce Website project"
     }, {
         id: 3,
-        name: "Portfolio 2022",
-        description: "My portfolio website, you're probably looking at right now.",
-        image: "images/projects/portfolio.jpg",
+        name: "Royal Marriage Bureau",
+        description: "Marriage Bureau website",
+        image: "https://royalmarriagebureau.com/website/images/logo-b.png",
         tags: ["webgl", "javascript", "html", "css"],
         twitter: "https://twitter.com/DavidHckh",
         alt: "david heckhoff portfolio project 2022 threejs blender 3d design",
@@ -24232,14 +24232,14 @@ const oM = [{
             src: "images/cssda-icon.png",
             alt: "cssda icon site of the day"
         }],
-        twitter: "https://twitter.com/DavidHckh"
+        twitter: "https://twitter.com/mrx_sandy"
     }, {
         id: 4,
         name: "Jelly Battle",
         description: "Play as Jelly and fight against three other Jellys in a multiplayer free-for-all game",
         image: "images/projects/jelly-battle.jpg",
         tags: ["webgl", "javascript", "socketio", "html", "css"],
-        twitter: "https://twitter.com/DavidHckh",
+        twitter: "https://twitter.com/mrx_sandy",
         alt: "work in progress portfolio project jelly battle strategy game flash multiplayer"
     }],
     aM = {
@@ -24328,7 +24328,7 @@ class lM {
     }
 }
 const cM = [{
-    name: "WebGL",
+    name: "Bootstrap  ",
     width: "60%"
 }, {
     name: "ReactJS",
@@ -24340,7 +24340,7 @@ const cM = [{
     name: "HTML + CSS",
     width: "90%"
 }, {
-    name: "3D Modelling",
+    name: "Photoshop",
     width: "60%"
 }];
 class hM {

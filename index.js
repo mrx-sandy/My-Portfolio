@@ -23901,6 +23901,7 @@ const tM = [{
 }, {
     name: "contactShadowModel",
     type: "gltfModel",
+
     path: "models/contact/shadow-model.glb"
 }, {
     name: "bakedShadowContactTexture",
@@ -24222,9 +24223,9 @@ const oM = [{
         alt: "React.JS based E-Commerce Website project"
     }, {
         id: 3,
-        name: "Royal Marriage Bureau",
+        name: "Project-3",
         description: "Marriage Bureau website",
-        image: "https://royalmarriagebureau.com/website/images/logo-b.png",
+        image: "https://ugc.production.linktr.ee/hTI9BrLvRCinR8gtllYa_fZUM6zMJQS4q7Yyx?io=true&size=avatar-v1_0",
         tags: ["webgl", "javascript", "html", "css"],
         twitter: "https://twitter.com/DavidHckh",
         alt: "david heckhoff portfolio project 2022 threejs blender 3d design",
@@ -24241,7 +24242,10 @@ const oM = [{
         tags: ["webgl", "javascript", "socketio", "html", "css"],
         twitter: "https://twitter.com/mrx_sandy",
         alt: "work in progress portfolio project jelly battle strategy game flash multiplayer"
-    }],
+    }
+
+
+],
     aM = {
         html: '<div class="work-item-tag" style="background: white; border: 1px solid #7C8594; color: #7C8594">HTML</div>',
         css: '<div class="work-item-tag" style="background: white; border: 1px solid #7C8594; color: #7C8594">CSS</div>',

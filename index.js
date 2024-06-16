@@ -23176,7 +23176,7 @@ class Jw {
             h = !0;
             const u = new Blob([l], {
                 type: r.mimeType
-            });
+            });royal
             return c = a.createObjectURL(u), c
         });
         else if (r.uri === void 0) throw new Error("THREE.GLTFLoader: Image " + e + " is missing URI and bufferView");
@@ -24223,20 +24223,20 @@ const oM = [{
         alt: "React.JS based E-Commerce Website project"
     }, {
         id: 3,
-        name: "Project-3",
-        description: "Marriage Bureau website",
+        name: "My Portfolio",
+        description: "My Portfolio Website",
         image: "https://ugc.production.linktr.ee/hTI9BrLvRCinR8gtllYa_fZUM6zMJQS4q7Yyx?io=true&size=avatar-v1_0",
         tags: ["webgl", "javascript", "html", "css"],
-        twitter: "https://twitter.com/DavidHckh",
-        alt: "david heckhoff portfolio project 2022 threejs blender 3d design",
+        twitter: "https://twitter.com/mrx_sandy",
+        alt: "Sandip Gadekar portfolio project 2024 threejs blender 3d design",
         bannerIcons: [{
-            src: "images/cssda-icon.png",
+            src: "images/myportfolio.png",
             alt: "cssda icon site of the day"
         }],
         twitter: "https://twitter.com/mrx_sandy"
     }, {
         id: 4,
-        name: "Jelly Battle",
+        name: "Balaji E-Seva",
         description: "Play as Jelly and fight against three other Jellys in a multiplayer free-for-all game",
         image: "images/projects/jelly-battle.jpg",
         tags: ["webgl", "javascript", "socketio", "html", "css"],
@@ -26848,3 +26848,23 @@ class ye {
     }
 }
 new ye(document.getElementById("main-canvas"));
+
+
+
+// Wrap the code inside a window.onload or place it at the end of the body to ensure the DOM is fully loaded before manipulating it.
+window.onload = function() {
+    var textElement = document.getElementById('typing-text');
+    textElement.innerHTML = ''; // Clear the text inside the element
+    var originalText = 'Frontend Web Developer';
+    var i = 0;
+
+    function type() {
+        if (i < originalText.length) {
+            textElement.innerHTML += originalText.charAt(i);
+            i++;
+            setTimeout(type, 100); // Adjust the delay to control typing speed
+        }
+    }
+
+    type();
+};

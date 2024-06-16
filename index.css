@@ -8,6 +8,7 @@
     pointer-events: none
 }
 
+
 #transition-wave-svg {
     transform: translateY(20px)
 }
@@ -1251,10 +1252,29 @@ section {
 }
 
 @font-face {
-    font-family: Poppins;
+    font-family: Poppins; 
     font-style: normal;
     font-weight: 700;
     src: url(/poppins-v19-latin-700.eot);
     src: local(""), url(/poppins-v19-latin-700.eot?#iefix) format("embedded-opentype"), url(/poppins-v19-latin-700.woff2) format("woff2"), url(/poppins-v19-latin-700.woff) format("woff"), url(/poppins-v19-latin-700.ttf) format("truetype"), url(/poppins-v19-latin-700.svg#Poppins) format("svg");
     font-display: swap
+}
+
+
+
+
+#typing-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000; /* This creates the cursor effect */
+    animation: typing steps(20) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }

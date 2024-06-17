@@ -24216,7 +24216,7 @@ const oM = [{
         id: 2,
         name: "VS-Mart (E-Commerce)",
         description: "React.JS based E-Commerce Website project",
-        image: "https://vsmart.ajspire.com/uploads/slider/1667996845.jpg",
+        image: "https://img.freepik.com/premium-vector/gradient-logo-ecommerce-business_667318-36.jpg",
         tags: ["javascript", "html", "css"],
         liveview: "https://vsmart.ajspire.com/",
         github: "https://github.com/mrx-sandy/",

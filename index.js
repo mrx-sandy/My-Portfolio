@@ -23910,7 +23910,7 @@ const tM = [{
 }, {
     name: "davidImage",
     type: "texture",
-    path: "images/david.png"
+    path: "images/ggg.png"
 }];
 class nM extends Ai {
     constructor() {

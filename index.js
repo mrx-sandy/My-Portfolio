@@ -23907,11 +23907,22 @@ const tM = [{
     name: "bakedShadowContactTexture",
     type: "texture",
     path: "models/contact/shadow-baked.jpg"
-}, {
-    name: "davidImage",
-    type: "texture",
-    path: "images/david.png"
-}];
+},{
+    "name": "davidImage",
+    "type": "texture",
+    "path": "images/sandipdp.jpg",
+    "properties": {
+        "size": {
+            "width": "original"
+        },
+        "border": {
+            "radius": "55px"
+        }
+    }
+}
+
+
+];
 class nM extends Ai {
     constructor() {
         super();
@@ -24194,17 +24205,8 @@ class rM {
         this.currentItemIndex == 0 ? (this.domElements.nextButton.classList.add("work-disabled-navigation-button"), this.experience.ui.hoverIcon.setupDefault()) : this.currentItemIndex == 4 ? (this.domElements.backButton.classList.add("work-disabled-navigation-button"), this.experience.ui.hoverIcon.setupDefault()) : (this.domElements.nextButton.classList.remove("work-disabled-navigation-button"), this.domElements.backButton.classList.remove("work-disabled-navigation-button"))
     }
 }
-const oM = [{
+const oM = [ {
         id: 0,
-        name: "CRUD",
-        description: "Group managment tool to optimize workflows",
-        image: "images/projects/join.jpg",
-        tags: ["javascript", "backend", "html", "css"],
-        liveview: "https://join.david-hckh.com/",
-        github: "https://github.com/mrx-sandy/",
-        alt: "Group management tool to optimize workflows portfolio project"
-    }, {
-        id: 1,
         name: "Royal Marriage Bureau",
         description: "A collection and description of all 898 Pokémon",
         image: "https://royalmarriagebureau.com/website/images/logo-b.png",
@@ -24212,6 +24214,15 @@ const oM = [{
         liveview: "https://royalmarriagebureau.com/",
         github: "https://github.com/mrx-sandy/",
         alt: "Royal Marriage Matrimony project"
+    },{
+        id: 1,
+        name: "Gemeni ChatBot",
+        description: "Developed an advanced conversational AI chatbot using Javascript , React.js",
+        image: "images/projects/gemeni1.png",
+        tags: ["javascript", "backend", "html", "css"],
+        liveview: "https://gemenichatbot.netlify.app/",
+        github: "https://github.com/mrx-sandy/gemeni",
+        alt: "Developed an advanced conversational AI chatbot using Javascript , React.js"
     }, {
         id: 2,
         name: "VS-Mart (E-Commerce)",

@@ -24218,7 +24218,7 @@ const oM = [ {
         id: 1,
         name: "Gemeni ChatBot",
         description: "Developed an advanced conversational AI chatbot using Javascript , React.js",
-        image: "images/projects/gemeni1.png",
+        image: "images/projects/gemeni3.png",
         tags: ["javascript", "backend", "html", "css"],
         liveview: "https://gemenichatbot.netlify.app/",
         github: "https://github.com/mrx-sandy/gemeni",

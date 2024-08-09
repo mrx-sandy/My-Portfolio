@@ -24208,8 +24208,8 @@ class rM {
 const oM = [ {
         id: 0,
         name: "Royal Marriage Bureau",
-        description: "A collection and description of all 898 Pokémon",
-        image: "https://royalmarriagebureau.com/website/images/logo-b.png",
+        description: "Royal Marrige Bureau",
+        image: "images/projects/royal.png",
         tags: ["javascript", "api", "html", "css"],
         liveview: "https://royalmarriagebureau.com/",
         github: "https://github.com/mrx-sandy/",
@@ -24249,7 +24249,7 @@ const oM = [ {
         id: 4,
         name: "Balaji E-Seva",
         description: "Play as Jelly and fight against three other Jellys in a multiplayer free-for-all game",
-        image: "images/projects/jelly-battle.jpg",
+        image: "images/projects/balaji.jpeg",
         tags: ["webgl", "javascript", "socketio", "html", "css"],
         twitter: "https://twitter.com/mrx_sandy",
         alt: "work in progress portfolio project jelly battle strategy game flash multiplayer"

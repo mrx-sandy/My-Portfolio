@@ -243,11 +243,36 @@
     letter-spacing: -.5px
 }
 
-.landing-subheading {
-    font-size: 17px;
+/* .landing-subheading {
+    font-size: 22px;
     fill: #7c8594;
     transform-origin: left
+} */
+
+.landing-subheading {
+    font-size: 22px;
+    fill: #7c8594;
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for transform and color changes */
+    animation: bounce 2s infinite; /* Infinite bounce animation */
 }
+
+/* Keyframes for bounce animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px); /* Slight bounce to the right */
+    }
+}
+
+/* Hover effect for more interaction */
+.landing-subheading:hover {
+    transform: scale(1.1); /* Scale up slightly on hover */
+    color: #5a6677; /* Change text color on hover */
+}
+
 
 @media (max-aspect-ratio: 12/10) {
     #landing-content-svg {

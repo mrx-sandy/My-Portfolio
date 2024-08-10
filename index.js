@@ -21668,7 +21668,11 @@ class dw {
     onOrientationChange() {
         this.sizes.portrait ? (this.sprite.scale.set(2.61, 5.05), this.sprite.position.set(-.05, 2.7, 0)) : (this.sprite.scale.set(2.61, 5.05), this.sprite.position.set(-.05, 2.15, 0))
     }
-    setSprite() {
+    setSprite() 
+    
+    
+    
+    {
         this.texture = this.resources.items.davidImage, this.material = new Pn({
             map: this.texture,
             depthTest: !1,
@@ -21676,6 +21680,9 @@ class dw {
             opacity: 0
         }), this.sprite = new _i(this.material), this.contactScene.model.add(this.sprite)
     }
+
+
+
 }
 class fw {
     constructor() {
@@ -23910,7 +23917,7 @@ const tM = [{
 },{
     "name": "davidImage",
     "type": "texture",
-    "path": "images/sandipdp.jpg",
+    "path": "images/sandip1.jpg",
     "properties": {
         "size": {
             "width": "original"
@@ -24214,8 +24221,17 @@ const oM = [ {
         liveview: "https://royalmarriagebureau.com/",
         github: "https://github.com/mrx-sandy/",
         alt: "Royal Marriage Matrimony project"
-    },{
+    }, {
         id: 1,
+        name: "VS-Mart (E-Commerce)",
+        description: "React.JS based E-Commerce Website project",
+        image: "https://img.freepik.com/premium-vector/gradient-logo-ecommerce-business_667318-36.jpg",
+        tags: ["javascript", "html", "css"],
+        liveview: "https://vsmart.ajspire.com/",
+        github: "https://github.com/mrx-sandy/",
+        alt: "React.JS based E-Commerce Website project"
+    },{
+        id: 2,
         name: "Gemeni ChatBot",
         description: "Developed an advanced conversational AI chatbot using Javascript , React.js",
         image: "images/projects/gemeni3.png",
@@ -24224,26 +24240,17 @@ const oM = [ {
         github: "https://github.com/mrx-sandy/gemeni",
         alt: "Developed an advanced conversational AI chatbot using Javascript , React.js"
     }, {
-        id: 2,
-        name: "VS-Mart (E-Commerce)",
-        description: "React.JS based E-Commerce Website project",
-        image: "https://img.freepik.com/premium-vector/gradient-logo-ecommerce-business_667318-36.jpg",
-        tags: ["javascript", "html", "css"],
-        liveview: "https://vsmart.ajspire.com/",
-        github: "https://github.com/mrx-sandy/",
-        alt: "React.JS based E-Commerce Website project"
-    }, {
         id: 3,
         name: "My Portfolio",
         description: "My Portfolio Website",
-        image: "https://ugc.production.linktr.ee/hTI9BrLvRCinR8gtllYa_fZUM6zMJQS4q7Yyx?io=true&size=avatar-v1_0",
+        image: "images/Sandip1.jpg",
         tags: ["webgl", "javascript", "html", "css"],
         twitter: "https://twitter.com/mrx_sandy",
         alt: "Sandip Gadekar portfolio project 2024 threejs blender 3d design",
-        bannerIcons: [{
-            src: "images/myportfolio.png",
-            alt: "cssda icon site of the day"
-        }],
+        // bannerIcons: [{
+        //     src: "images/Sandip1.png",
+        //     alt: "cssda icon site of the day"
+        // }],
         twitter: "https://twitter.com/mrx_sandy"
     }, {
         id: 4,

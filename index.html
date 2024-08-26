@@ -18,7 +18,7 @@
     <meta name="twitter:site" content="Sandip Gadekar">
     <meta name="twitter:creator" content="@mrx_sandy">
     <meta name="twitter:title" content="Sandip Gadekar - Creative Developer">
-    <meta name="twitter:description" content="Portfolio of Sandip Gadekar - Creative developer living in Germany - Focused on WebGL and ReactJS">
+    <meta name="twitter:description" content="Portfolio of Sandip Gadekar - Creative developer living in Pune - Focused on Frontend Developement">
     <meta name="twitter:image" content="https://sandip-gadekar-portfolio.vercel.app/thumbnail.png">
     <meta name="theme-color" content="#EFE7DC">
     <meta name="mobile-web-app-capable" content="yes">
@@ -230,6 +230,8 @@
                 <text class="landing-subheading"  id="typing-text" x="10" y="185">
                     Frontend Web Developer
                 </text>
+
+                
     
                 <foreignObject x="8" y="250" height="100" width="300" requiredExtensions="http://www.w3.org/1999/xhtml">
                     <div id="landing-cta-button" class="big-button orange-hover">Get in Touch</div>
@@ -544,9 +546,75 @@
                 </h1>
             </div>
 
-            <div id="contact-container">
+
+
+
+
+
+
+
+
+
+
+
+            <div id="contact-container"   >
                 <!--Form Container-->
-                <div id="contact-form-container" class="column contact-container">
+
+
+                <form id="contact-form-container" class="column contact-container" action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="ae0de207-e7e6-4765-bf2f-684e70dd3c71">
+                
+                    <div id="contact-name-input" class="input-container column">
+                        <div class="row">
+                            <label for="contact-name-input-field">Name :</label>
+                            <span class="error-label hide">Please enter your name.</span>
+                        </div>
+                        <input id="contact-name-input-field" name="name" required>
+                    </div>
+                
+                    <div id="contact-email-input" class="input-container column">
+                        <div class="row">
+                            <label for="contact-email-input-field">Email :</label>
+                            <span class="error-label hide">Please enter a valid email address.</span>
+                        </div>
+                        <input id="contact-email-input-field" name="email" type="email" required>
+                    </div>
+                
+                    <div id="contact-message-input" class="input-container column">
+                        <div class="row">
+                            <label for="contact-message-input-field">Message :</label>
+                            <span class="error-label hide">Please enter your message.</span>
+                        </div>
+                        <textarea id="contact-message-input-field" name="message" required></textarea>
+                    </div>
+                
+                    <div class="row" id="contact-button-container">
+                        <!--Social Icons-->
+                        <a tabindex="-1" target="_blank" href="https://twitter.com/mrx_sandy"><img class="social-icon"
+                                src="/icons/twitter-icon.png" alt="twitter contact social icon small 28x28" height="28" width="28"></a>
+                        <a tabindex="-1" target="_blank" href="https://github.com/mrx-sandy"><img class="social-icon"
+                                alt="github contact social icon small 28x28" height="28" width="28" src="/icons/github-icon.png"></a>
+                        <a tabindex="-1" target="_blank" href="https://www.linkedin.com/in/sandip-gadekar">
+                            <img class="social-icon " alt="linkedin contact social icon small 28x28" height="28" width="28"
+                                src="/icons/linkedin-icon.png"></a>
+                        <a tabindex="-1" href="mailto:sandipgadekar.work@gmail.com"><img class="social-icon"
+                                alt="email contact social icon small 28x28" height="28" width="28" src="/icons/mail-icon.png"></a>
+                
+                        <!--Submit Button-->
+                        <button type="submit" id="contact-submit-button" class="small-button orange-hover">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+                
+
+
+
+                <!-- <div id="contact-form-container" class="column contact-container" action="https://api.web3forms.com/submit" method="POST">
+                    
+                        <input type="hidden" name="access_key" value="ae0de207-e7e6-4765-bf2f-684e70dd3c71">
+
+
                     <div id="contact-name-input" class="input-container column">
                         <div class="row">
                             <label for="contact-name-input-field">Name :</label>
@@ -569,7 +637,6 @@
                         <textarea id="contact-message-input-field" tabindex="-1"></textarea>
                     </div>
                     <div class="row" id="contact-button-container">
-                        <!--Social Icons-->
                         <a tabindex="-1" target="_blank" href="https://twitter.com/mrx_sandy"><img class="social-icon"
                                 src="/icons/twitter-icon.png" alt="twitter contact social icon small 28x28"
                                 height="28" width="28"></img></a>
@@ -582,12 +649,23 @@
                         <a tabindex="-1" href="mailto:sandipgadekar.work@gmail.com"> <img class="social-icon"
                                 alt="email contact social icon small 28x28" height="28" width="28"
                                 src="/icons/mail-icon.png"></img></a>
-                        <!--Submit Button-->
                         <div id="contact-submit-button" class="small-button orange-hover">
                             Submit
                         </div>
                     </div>
-                </div>
+                    
+                </div> -->
+
+
+
+
+
+
+
+
+
+
+
 
                 <!--Loading Container-->
                 <div id="contact-loading-container" class="center contact-container hide">

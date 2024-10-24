@@ -25165,10 +25165,17 @@ class yM {
             duration: .2
         }), this.domElements[e + "Container"].classList.remove("hide")
     }
+
+
+
     showResult(e) {
         const t = Math.floor(e.status / 100);
         this.showContainer("result"), this.domElements.resultMessage.innerHTML = t == 2 ? "<h4>Your message has been sent.</h4><span>I'll get back to you as soon as possible.</span>" : "<h4>Oops. An error occurred.</h4><span>Please try again.</span>", this.domElements.resultButton.innerHTML = t == 2 ? "Cool!" : "Try again", t == 2 ? this.showSuccessIcon() : this.showErrorIcon()
     }
+
+
+
+    
     addResultButtonEventListener() {
         this.domElements.resultButton.addEventListener("click", () => {
             this.sounds.play("buttonClick"), this.showContainer("form"), this.domElements.errorLines[0].classList.contains("hide") && this.clearInputs()
